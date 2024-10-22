@@ -14,7 +14,7 @@
             $city = $_POST['city'];
 
 
-            $data = file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".$city."&appid=cbe439ed5d7e9fd4dee89b0183fa437d");
+            $data = file_get_contents("https://api.openweathermap.org/data/2.5/weather?q=".$city."&appid=");
 
 
             $weather = json_decode($data, true);
